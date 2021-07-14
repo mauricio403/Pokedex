@@ -18,7 +18,7 @@ export const styles = StyleSheet.create({
         fontWeight: 'bold',
         top: 20,
         marginBottom: 20,
-        paddingBottom:10
+        paddingBottom: 10
     },
     cardContainer: {
         marginHorizontal: 10,
@@ -60,39 +60,65 @@ export const styles = StyleSheet.create({
         bottom: -5,
 
     },
-    headerContainer:{
-        height:300,
-        zIndex:999, //al hacer scroll las cosas van abajo del hei
-        alignItems:'center',
-        borderBottomRightRadius:1000,
-        borderBottomLeftRadius:1000,
-        
-      
+    headerContainer: {
+        height: 300,
+        zIndex: 999, //al hacer scroll las cosas van abajo del hei
+        alignItems: 'center',
+        borderBottomRightRadius: 1000,
+        borderBottomLeftRadius: 1000,
+
+
     },
-    botonRegreso:{
-        position:'absolute',
-        left:20,
-        top:10
+    botonRegreso: {
+        position: 'absolute',
+        left: 20,
+        top: 10
 
     },
     pokemonName: {
-        color:'white',
-        fontSize:40,
-        alignSelf:'flex-start',
-        left:20,
-        
+        color: 'white',
+        fontSize: 40,
+        alignSelf: 'flex-start',
+        left: 20,
+
     },
     pokebola2: {
-        width:150,
-        height:150,
+        width: 150,
+        height: 150,
         bottom: -20,
         opacity: 0.7,
-       
+
     },
-    pokemonImageHeader:{
-        width:250,
-        height:250,
-        position:'absolute',
-        bottom:-15
+    pokemonImageHeader: {
+        width: 250,
+        height: 250,
+        position: 'absolute',
+        bottom: -15
+    },
+    loadingIndicator: {
+        flex:1,
+        
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+
+    containerDetails: {
+        marginHorizontal:20,
+        marginTop: 300
+    },
+    titlePokemon: {
+        fontSize:30,
+        fontWeight:'bold',
+        marginTop:10
+
+    },
+    regularText: {
+        fontSize:19,
+        marginRight:10
+
+    },
+    basicScripts: {
+        width: 100,
+        height:100
     }
 });
