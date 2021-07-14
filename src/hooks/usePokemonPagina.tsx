@@ -52,7 +52,8 @@ export const usePokemonPagina = () => {
 
     return {
         isLoading,
-        simplePokemon
+        simplePokemon,
+        loadPokemons
 
     }
 }
